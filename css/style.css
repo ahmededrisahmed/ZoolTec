@@ -17,6 +17,10 @@ ul {
     padding: 40px 0;
 }
 
+.p-20 {
+    padding: 20px 0;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
@@ -214,10 +218,57 @@ ul {
         display: flex;
         flex-direction: column;
         text-align: center;
+        align-items: center;
+    }
+
+    .navbar {
+    	position: unset !important;
     }
 
     .navbar ul li {
-        margin-right: 0 !important;
+        margin: 20px 0 !important;
+    }
+
+    .header .header_content {
+    	margin-top: 0 !important
+    }
+
+    .contact .mb-element {
+    	text-align: center !important;
+    }
+
+    .contact .contact-desc {
+    	width: 100% !important
+    }
+
+}
+
+@media (min-width: 332px) {
+	.navbar {
+    	position: unset !important;
+    }
+
+    .navbar ul li {
+        margin: 20px 0 !important;
+    }
+
+    .header {
+    	margin-top: -5px
+    }
+
+    .header .desc p {
+    	text-align: center;
+    	margin-bottom: 40px;
+    	max-width: 100%;
+    	line-height: 2.3
+    }
+
+    .contact .contact-form form {
+    	width: 250px !important
+    }
+
+    .contact .contact-form form input, .contact .contact-form form textarea {
+    	width: 250px !important
     }
 }
 
